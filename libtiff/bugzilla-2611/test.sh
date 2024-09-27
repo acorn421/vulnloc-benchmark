@@ -24,5 +24,5 @@ fi
 
 
 POC=$script_dir/tests/$TEST_ID
-timeout 10 $BINARY_PATH $POC foo > $BINARY_PATH.log 2>&1
+timeout 10 $BINARY_PATH $POC foo > $BINARY_PATH.out 2>&1
 
